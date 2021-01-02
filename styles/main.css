@@ -77,7 +77,7 @@ nav {
     justify-self: center;
 }
 
-#teen {
+#team {
     grid-column: 3;
     grid-row: 1;
     font-size: 3vh;
@@ -95,7 +95,7 @@ nav {
     justify-self: center;
 }
 
-#learn{
+#learn {
     grid-column: 5;
     grid-row: 1;
     font-size: 3vh;
