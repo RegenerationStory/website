@@ -1,5 +1,8 @@
 body {
+    height: 100vh;
+    width: 100vw;
     margin: 0;
+    background-color: #d2b791;
 }
 
 .container {
@@ -16,7 +19,7 @@ header {
 
 .header-container {
     display: grid;
-    grid-template-columns: 40vw 5vw 55vw;
+    grid-template-columns: 35vw 5vw 60vw;
     grid-template-rows: 5vh 10vh 10vh;
 }
 
@@ -44,7 +47,7 @@ header h2 {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5vh;
-    color: #d2b791;
+    color:#7497b5;
     align-self: center;
 }
 
@@ -63,7 +66,9 @@ nav {
 #home {
     grid-column: 1;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
+    color: #754b2e;
     align-self: center;
     justify-self: center;
 }
@@ -71,8 +76,10 @@ nav {
 #synopsis {
     grid-column: 2;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    color: #7497b5;
+    text-decoration: none;
+    color: #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -80,8 +87,10 @@ nav {
 #team {
     grid-column: 3;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    color: #7497b5;
+    text-decoration: none;
+    color: #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -89,8 +98,10 @@ nav {
 #journey {
     grid-column: 4;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    color: #7497b5;
+    text-decoration: none;
+    color: #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -98,8 +109,10 @@ nav {
 #learn {
     grid-column: 5;
     grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    color: #7497b5;
+    text-decoration: none;
+    color: #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -116,17 +129,27 @@ article {
 aside {
     grid-column: 17 / 21;
     grid-row: 7 / 20;
-    background-color: lightgrey;
+    background-color: #7497b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    color: #5f3525;
+}
+
+#aside-title {
+    padding-left: 2vw;
 }
 
 footer {
     grid-column: 1 / 21;
     grid-row: 20 / 21;
     align-self: stretch;
-    background-color: grey;
+    align-content: center;
+    background-color: #5f3525;
 }
 
 #credits-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
     padding-left: 5vw;
-    color: whitesmoke;
+    color:#d2b791;
 }
