@@ -142,10 +142,6 @@ article h5 {
     margin-bottom: 1vh;
 }
 
-.artwork-title {
-    font-style: italic;
-}
-
 footer {
     grid-column: 1 / 21;
     grid-row: auto;
