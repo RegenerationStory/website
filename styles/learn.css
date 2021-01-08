@@ -123,6 +123,10 @@ article {
     grid-row: 7 / 20;
 }
 
+.artwork-title {
+    font-style: italic;
+}
+
 article h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;

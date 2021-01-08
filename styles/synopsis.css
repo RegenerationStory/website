@@ -129,6 +129,10 @@ article {
     grid-template-rows: repeat(13, 5vh);
 }
 
+.artwork-title {
+    font-style: italic;
+}
+
 #logline-title {
     grid-column: 2 / 18;
     grid-row: 2;
