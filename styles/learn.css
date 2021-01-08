@@ -51,10 +51,6 @@ header h2 {
     align-self: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav {
     grid-column: 1 / 21;
     grid-row: 6;
@@ -72,7 +68,8 @@ nav {
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    color: #754b2e;
+    text-decoration: none;
+    color: #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -83,7 +80,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
     text-decoration: none;
-    color: #d2b791;
+    color:  #d2b791;
     align-self: center;
     justify-self: center;
 }
@@ -116,142 +113,38 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
     text-decoration: none;
-    color: #d2b791;
+    color: #754b2e;
     align-self: center;
     justify-self: center;
 }
 
 article {
-    grid-column: 2 / 15;
+    grid-column: 2 / 20;
     grid-row: 7 / 20;
 }
 
-#article-container {
-    display: grid;
-    grid-template-columns: repeat(13, 5vw);
-    grid-template-rows: repeat(12, 5vh);  
-}
-
-#synopsis-card {
-    grid-column: 1 / 7;
-    grid-row: 2 / 7;
-    background-color: #7497b5;
-    align-self: stretch;
-    justify-self: stretch;
-}
-
-#synopsis-card-container {
-    display: grid;
-    grid-template-columns: repeat(6, 5vw);
-    grid-template-rows: repeat(5, 5vh);
-}
-
-#synopsis-card-text {
-    grid-column: 2 / 6;
-    grid-row: 2 / 5;
-    align-self: center;
-    justify-self: center;
+article h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    text-align: center;
-    color: #5f3525;
 }
 
-#team-card {
-    grid-column: 8 / 14;
-    grid-row: 2 / 7;
-    background-color: #7497b5;
-    align-self: stretch;
-    justify-self: stretch;
-}
-
-#team-card-container {
-    display: grid;
-    grid-template-columns: repeat(6, 5vw);
-    grid-template-rows: repeat(5, 5vh);
-}
-
-#team-card-text {
-    grid-column: 2 / 6;
-    grid-row: 2 / 5;
-    align-self: center;
-    justify-self: center;
+article h4 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-    text-align: center;
-    color: #5f3525;
+    font-size: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 0.5vh;
 }
 
-#journey-card {
-    grid-column: 1 / 7;
-    grid-row: 8 / 14;
-    background-color: #7497b5;
-    align-self: stretch;
-    justify-self: stretch;
-}
-
-#journey-card-container {
-    display: grid;
-    grid-template-columns: repeat(6, 5vw);
-    grid-template-rows: repeat(5, 5vh);
-}
-
-#journey-card-text {
-    grid-column: 2 / 6;
-    grid-row: 2 / 5;
-    align-self: center;
-    justify-self: center;
+article h5 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-    text-align: center;
-    color: #5f3525;
-}
-
-#learn-card {
-    grid-column: 8 / 14;
-    grid-row: 8 / 14;
-    background-color: #7497b5;
-    align-self: stretch;
-    justify-self: stretch;
-}
-
-#learn-card-container {
-    display: grid;
-    grid-template-columns: repeat(6, 5vw);
-    grid-template-rows: repeat(5, 5vh);
-}
-
-#learn-card-text {
-    grid-column: 2 / 6;
-    grid-row: 2 / 5;
-    align-self: center;
-    justify-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-    text-align: center;
-    color: #5f3525;
-}
-
-.artwork-title {
-    font-style: italic;
-}
-
-aside {
-    grid-column: 16 / 21;
-    grid-row: 7 / 20;
-    background-color: #7497b5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-    color: #5f3525;
-}
-
-#aside-title {
-    padding-left: 2vw;
+    font-size: 1.5vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
 }
 
 footer {
     grid-column: 1 / 21;
-    grid-row: 20 / 21;
+    grid-row: auto;
     align-self: stretch;
     align-content: center;
     background-color: #5f3525;
