@@ -136,16 +136,18 @@ article h3 {
     display: grid;
     grid-template-columns: repeat(18, 5vw);
     grid-template-rows: auto;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 
 section img {
     grid-column: 1 / 4;
     max-width: 15vw;
+    align-self: center;
 }
 
 .team-text {
     grid-column: 5 / 19;
+    margin-top: 1.5vh;
 }
 
 section h4 {
