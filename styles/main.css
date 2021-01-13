@@ -28,6 +28,7 @@ header img {
     grid-row: 1;
     align-self: stretch;
     justify-self: start;
+    max-width: 100%;
 }
 
 a {
