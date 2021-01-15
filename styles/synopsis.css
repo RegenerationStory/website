@@ -121,7 +121,7 @@ article {
     grid-column: 2 / 18;
     grid-row: 2;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 3vmin;
     margin: 0 0;
     align-self: center;
 }
@@ -130,7 +130,7 @@ article {
     grid-column: 2 / 18;
     grid-row: 3;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.5vmin;
     margin: 0 0;
     align-self: start;
 }
@@ -139,7 +139,7 @@ article {
     grid-column: 2 / 18;
     grid-row: 5;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 3vmin;
     margin: 0 0;
     align-self: center;
 }
@@ -148,7 +148,7 @@ article {
     grid-column: 2 / 18;
     grid-row: 6 / 13;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.5vmin;
     margin: 0 0;
     align-self: start;
 }
@@ -163,7 +163,7 @@ footer {
 
 #credits-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 3vmin;
     padding-left: 5vw;
     color:#d2b791;
 }
