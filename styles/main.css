@@ -19,15 +19,15 @@ header {
 
 .header-container {
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 30vw 70vw;
     grid-template-rows: 25vh;
 }
 
 header img {
     grid-column: 1;
     grid-row: 1;
-    align-self: stretch;
     justify-self: start;
+    max-height: 100%;
     max-width: 100%;
 }
 
