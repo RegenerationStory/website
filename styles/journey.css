@@ -23,7 +23,7 @@ header {
     grid-template-rows: 25vh;
 }
 
-@media screen and (width > 750px) {
+@media screen and (min-width: 750px) {
     #header-image {
         grid-column: 1;
         grid-row: 1;
@@ -59,7 +59,7 @@ header {
     }
 }
 
-@media screen and (width <= 750px) {
+@media screen and (max-width: 749px) {
     #header-image {
         grid-column: 1 / 4;
         grid-row: 1;
