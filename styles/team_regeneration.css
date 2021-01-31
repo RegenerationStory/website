@@ -19,16 +19,58 @@ header {
 
 .header-container {
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 25vw 5vw 70vw;
     grid-template-rows: 25vh;
 }
 
-header img {
-    grid-column: 1;
-    grid-row: 1;
-    align-self: stretch;
-    justify-self: start;
-    max-width: 100%;
+@media screen and (width > 750px) {
+    #header-image {
+        grid-column: 1;
+        grid-row: 1;
+        justify-self: start;
+        align-self: center;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #header-text {
+        display: block;
+        grid-column: 3;
+        grid-row: 1;
+        justify-self: start;
+        align-self: center;
+        max-width: 100%;
+    }
+
+    #header-text > h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8vmin;
+        font-style: italic;
+        color: #d2b791;
+        margin: 2vmin 0 0.5vmin 0;
+    }
+
+    #header-text > h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vmin;
+        font-style: italic;
+        color: #d2b791;
+        margin: 0.5vmin 0 1vmin 0;
+    }
+}
+
+@media screen and (width <= 750px) {
+    #header-image {
+        grid-column: 1 / 4;
+        grid-row: 1;
+        justify-self: center;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #header-text {
+        display: none;
+    }
 }
 
 a {
@@ -51,7 +93,7 @@ nav {
     grid-column: 1;
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     color: #d2b791;
     align-self: center;
@@ -62,7 +104,7 @@ nav {
     grid-column: 2;
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     color: #d2b791;
     align-self: center;
@@ -73,7 +115,7 @@ nav {
     grid-column: 3;
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     color: #754b2e;
     align-self: center;
@@ -84,7 +126,7 @@ nav {
     grid-column: 4;
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     color: #d2b791;
     align-self: center;
@@ -95,7 +137,7 @@ nav {
     grid-column: 5;
     grid-row: 1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     color: #d2b791;
     align-self: center;
