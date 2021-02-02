@@ -168,6 +168,14 @@ article {
     grid-template-rows: repeat(5, 5vh);
 }
 
+#synopsis-card-image {
+    grid-column: 1 / 7;
+    grid-row: 1 / 6;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+
 #synopsis-card-text {
     grid-column: 2 / 6;
     grid-row: 2 / 5;
@@ -177,6 +185,15 @@ article {
     font-size: 3vmin;
     text-align: center;
     color: #5f3525;
+    display: none;
+}
+
+#synopsis-card-container:hover #synopsis-card-image {
+    display: none;
+}
+
+#synopsis-card-container:hover #synopsis-card-text {
+    display: block;
 }
 
 #team-card {
@@ -193,6 +210,13 @@ article {
     grid-template-rows: repeat(5, 5vh);
 }
 
+#team-card-image {
+    grid-column: 1 / 7;
+    grid-row: 1 / 6;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
 #team-card-text {
     grid-column: 2 / 6;
     grid-row: 2 / 5;
@@ -202,6 +226,15 @@ article {
     font-size: 3vmin;
     text-align: center;
     color: #5f3525;
+    display: none;
+}
+
+#team-card-container:hover #team-card-image {
+    display: none;
+}
+
+#team-card-container:hover #team-card-text {
+    display: block;
 }
 
 #journey-card {
@@ -218,6 +251,13 @@ article {
     grid-template-rows: repeat(5, 5vh);
 }
 
+#journey-card-image {
+    grid-column: 1 / 7;
+    grid-row: 1 / 6;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
 #journey-card-text {
     grid-column: 2 / 6;
     grid-row: 2 / 5;
@@ -227,6 +267,15 @@ article {
     font-size: 3vmin;
     text-align: center;
     color: #5f3525;
+    display: none;
+}
+
+#journey-card-container:hover #journey-card-image {
+    display: none;
+}
+
+#journey-card-container:hover #journey-card-text {
+    display: block;
 }
 
 #learn-card {
@@ -243,6 +292,13 @@ article {
     grid-template-rows: repeat(5, 5vh);
 }
 
+#learn-card-image {
+    grid-column: 1 / 7;
+    grid-row: 1 / 6;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
 #learn-card-text {
     grid-column: 2 / 6;
     grid-row: 2 / 5;
@@ -252,6 +308,15 @@ article {
     font-size: 3vmin;
     text-align: center;
     color: #5f3525;
+    display: none;
+}
+
+#learn-card-container:hover #learn-card-image {
+    display: none;
+}
+
+#learn-card-container:hover #learn-card-text {
+    display: block;
 }
 
 .artwork-title {
