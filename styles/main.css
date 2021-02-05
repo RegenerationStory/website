@@ -23,7 +23,7 @@ header {
     grid-template-rows: 25vh;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 600px) {
     #header-image {
         grid-column: 1;
         grid-row: 1;
@@ -59,7 +59,7 @@ header {
     }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 599px) {
     #header-image {
         grid-column: 1 / 4;
         grid-row: 1;
@@ -174,7 +174,6 @@ article {
     align-self: stretch;
     justify-self: stretch;
 }
-
 
 #synopsis-card-text {
     grid-column: 2 / 6;
