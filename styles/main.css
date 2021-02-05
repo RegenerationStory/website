@@ -24,10 +24,17 @@ header {
 }
 
 @media screen and (min-width: 600px) {
-    #header-image {
+    #header-image-container {
         grid-column: 1;
         grid-row: 1;
-        justify-self: start;
+        display: grid;
+        grid-template-columns: 25vw;
+        grid-template-rows: 25vh;
+    }
+
+    #header-image {
+        display: block;
+        justify-self: stretch;
         align-self: center;
         max-height: 100%;
         max-width: 100%;
@@ -60,10 +67,20 @@ header {
 }
 
 @media screen and (max-width: 599px) {
-    #header-image {
+    #header-image-container {
         grid-column: 1 / 4;
         grid-row: 1;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 25vh;
+    }
+
+    #header-image {
+        display: block;
+        grid-column: 1;
+        grid-row: 1;
         justify-self: center;
+        align-self: center;
         max-height: 100%;
         max-width: 100%;
     }
