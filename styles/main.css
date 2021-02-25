@@ -350,19 +350,19 @@ aside {
 
 .aside-container {
     display: grid;
-    grid-template-columns: 25vw;
+    grid-template-columns: 2.5vw 20vw 2.5vw;
     grid-template-rows: repeat(13, minmax(0, 5vh));
 }
 
 #aside-title {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 1 / 3;
     justify-self: center;
     text-align: center;
 }
 
 #premiere-text {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3 / 5;
     justify-self: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -371,18 +371,36 @@ aside {
     text-align: center;
 }
 
-#premiere-link {
-    grid-column: 1;
+#premiere-link-text {
+    grid-column: 2;
     grid-row: 5;
     align-self: center;
     justify-self: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vmin;
     font-style: italic;
+    text-align: center;
+}
+
+#youtube-link {
+    grid-column: 2;
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: 2.5vw 15vw 2.5vw;
+    grid-template-rows: 5vh;
+}
+
+#youtube-logo {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #warning-header {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 10;
     align-self: center;
     justify-self: center;
@@ -393,7 +411,7 @@ aside {
 }
 
 #content-warning {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 11 / 13;
     align-self: center;
     justify-self: center;
